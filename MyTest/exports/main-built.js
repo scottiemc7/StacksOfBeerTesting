@@ -1,0 +1,1 @@
+define("test",[],function(){var e={testMe:function(){alert("hi!")}};return e}),require.config({baseURL:"./src/app"}),require(["test"],function(e){e.testMe()}),define("main",function(){});
